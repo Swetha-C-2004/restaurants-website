@@ -87,6 +87,21 @@ body{
     display: table;
 
 }
+.section-center{
+    padding: 4rem 0;
+    width: 85vw;
+    margin:0 auto;
+    max-width: 1170px;
+
+}
+.section-title h3{
+    font-family: var(--ff-design);
+    color: var(--clr-primary-light);
+    font-size: 2rem;
+}
+.section-title{
+    margin-bottom: 2rem;
+}
 /*-------------- navbar---------------*/
 .nav-btn svg{
     fill: var(--clr-primary);
@@ -270,4 +285,23 @@ body{
         width: 25%
     }
     
+}
+/*-----about-----*/
+.about-img,
+.about-info{
+    padding: 2rem 0;
+}
+.about-picture-container{
+    background-color: var(--clr-primary);
+    max-width: 30rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.about-picture{
+    transition: var(--transition);
+}
+.about-picture-container:hover .about-picture{
+    transform: scale(1,2);
+    opacity: 0.5;
 }
